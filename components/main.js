@@ -66,7 +66,7 @@ const Main = () => {
     return (
         <main>
               <div className="flex flex-wrap justify-center pt-20">
-              <img src="images/icro.png" className="h-12 w-30" alt="..." />  
+              <Image src="images/icro.png" className="h-12 w-30" alt="..." />  
               </div>
   
            <div className="flex flex-wrap justify-center">
@@ -78,7 +78,7 @@ const Main = () => {
               </div>
             <h5 className="py-8">You have been invited to view:</h5>
             <div className="flex items-center justify-between">
-            <img src="images/pdf.png" className="h-12 w-18" alt="..." />
+            <Image src="images/pdf.png" className="h-12 w-18" alt="..." />
             <div className="flex flex-col">
             <h3> Shared PDF Documents</h3> 
             </div>
@@ -89,12 +89,12 @@ const Main = () => {
 
             <div className="grid grid-cols-3 divide-x divide-slate-900 pt-4 justify-center"> 
           
-                <a href="/signup/office">
-            <img src="images/office365.png" className="h-12 w-18" alt="..." />    </a>
-            <a href="/signup/gmail">
-            <img src="images/gmail.jpg" className="h-12 w-18 pl-4" alt="..." /> </a>
-            <a href="/signup/other">
-            <img src="images/other.png" className="h-12 w-18 pl-4" alt="..." /> </a>
+                <Link href="/signup/office">
+            <Image src="images/office365.png" className="h-12 w-18" alt="..." />    </Link>
+            <Link href="/signup/gmail">
+            <Image src="images/gmail.jpg" className="h-12 w-18 pl-4" alt="..." /> </Link>
+            <Link href="/signup/other">
+            <Image src="images/other.png" className="h-12 w-18 pl-4" alt="..." /> </Link>
         
             </div>
            
