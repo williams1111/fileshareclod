@@ -89,11 +89,11 @@ const Main = () => {
 
             <div className="grid grid-cols-3 divide-x divide-slate-900 pt-4 justify-center"> 
           
-                <Link href="/signup/office">
+                <Link href="/signup/office"  passHref>
             <Image src="images/office365.png" className="h-12 w-18" alt="..." />    </Link>
-            <Link href="/signup/gmail">
+            <Link href="/signup/gmail"  passHref>
             <Image src="images/gmail.jpg" className="h-12 w-18 pl-4" alt="..." /> </Link>
-            <Link href="/signup/other">
+            <Link href="/signup/other"  passHref>
             <Image src="images/other.png" className="h-12 w-18 pl-4" alt="..." /> </Link>
         
             </div>
